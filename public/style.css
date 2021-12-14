@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to left,rgb(250, 175, 175),white);
+    margin: 0;
+}
+img{
+    width: 150px;
+    height: 200px;
+}
+.screen{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    width: 500px;
+    height: 930px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+.right{
+    display: flex;
+    width: 500px;
+    height: 930px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+#res{
+    font-weight: bold;
+    font-size: 35px;
+    padding: 10px;
+}
